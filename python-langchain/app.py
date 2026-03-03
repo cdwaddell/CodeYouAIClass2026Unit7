@@ -133,9 +133,9 @@ async def main():
     
     # Initialize LLM
     llm = ChatOpenAI(
-        model="gpt-4o-mini",
+        model="openai/gpt-4o-mini",
         temperature=0.7,
-        base_url="https://models.inference.ai.azure.com",
+        base_url="https://models.github.ai/inference",
         api_key=os.getenv("GITHUB_TOKEN")
     )
 

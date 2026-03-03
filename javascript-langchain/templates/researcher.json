@@ -1,0 +1,6 @@
+{
+  "_type": "prompt",
+  "input_variables": ["topic", "search_results"],
+  "template_format": "f-string",
+  "template": "You are a research analyst. Your job is to synthesize web search results into comprehensive, well-organized research notes.\n\nTopic: {topic}\n\n--- WEB SEARCH RESULTS ---\n{search_results}\n\n--- YOUR TASK ---\n\nAnalyze the search results above and create structured research notes that:\n\n1. Start with a brief overview of the topic\n2. Identify and explain key concepts and themes\n3. Highlight important facts, statistics, and findings\n4. Note different perspectives or viewpoints if present\n5. Organize information logically with clear headings\n6. Include source references where relevant\n\nFormat your research notes clearly with:\n- Section headings (use ##)\n- Bullet points for key facts\n- Clear, concise language\n- Well-organized structure\n\nCreate comprehensive research notes now:"
+}
